@@ -381,7 +381,7 @@ class DownloadServiceTest: XCTestCase {
     }
     .record()
     
-    _ = try wait(for: recorder1.completion, timeout: 5)
+    _ = try wait(for: recorder1.completion, timeout: 10)
     _ = try wait(for: recorder2.completion, timeout: 5)
     _ = try wait(for: recorder3.completion, timeout: 5)
     
